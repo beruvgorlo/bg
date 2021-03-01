@@ -1,0 +1,136 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+  color: #A1A09E;
+  background-color:#1B1B1B ; /* Цвет фона */
+  padding: 5px; /* Поля вокруг текста */
+
+}
+
+
+.container{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header{
+  background-color: black;
+  margin: 0%;
+  padding: 0%;
+  height:57px;
+}
+.nav{
+
+  display: flex;
+  height:57px;
+}
+
+.nav-brand{
+  display: flex;
+  align-self: center;
+  margin-left: 17%;
+  margin-right: 55%;
+}
+.nav-list{
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  list-style-type: none;
+  width: 60px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.nav-list-item{
+  margin: 32px;
+  align-self: center;
+  color:  #A1A09E;
+}
+
+.nav-list-item-icon{
+  margin: 5 px;
+}
+
+.zag{
+  height: 420px;
+  display: flex;
+  align-content: center;
+}
+
+.zag-box{
+  display: flex;
+  align-self: center;
+  height: 195px;
+width: 670px;
+left: -5px;
+top: 165px;
+border-radius: 10px;
+background: radial-gradient(33.26% 33.26% at 43.05% 55.95%, #000000 0%, rgba(0, 0, 0, 0) 100%);
+background: radial-gradient(87.01% 1027.25% at 92.54% 85.9%, rgba(19, 19, 19, 0.73) 0%, rgba(15, 15, 15, 0.73) 100%);
+
+
+}
+
+.zag-box-item{
+display: flex;
+align-self: center;
+margin-left: 97px;
+font-family: 'Montserrat Alternates';
+font-weight: 600;
+font-size: 47px;
+font-style: normal;
+font-weight: 800;
+line-height: 57px;
+letter-spacing: 0em;
+text-align: left;
+background: linear-gradient(90deg, #6B3BC4 2.97%, #0FAAAA 78.63%);
+text-transform: uppercase;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.products-zag{
+display: flex;
+justify-content: center;
+margin: 37px;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.products{
+
+}
+
+.products-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.products-list-item{
+
+  width: 247px;
+  height: 266px;
+  left: 165px;
+  top: 556px;
+  background: linear-gradient(180.1deg, rgba(70, 70, 70, 0.72) 0.09%, rgba(27, 27, 27, 0.72) 99.91%);
+  border-radius: 10px;
+
+}
+
+.products-list-item-box{
+  align-content: center;
+
+}
+

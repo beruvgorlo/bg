@@ -35,7 +35,7 @@ body{
 }
 
 .nav-list-item{
-  margin-left: 7em;
+  margin-left: 50px;
   text-align: inherit;
   color:  #A1A09E;
 }
@@ -53,9 +53,9 @@ a{
   flex-direction: column;
   justify-content: space-around;
   align-content: center;
-  background-image: url(bb.png);
-  background-position: right bottom; /* Положение фона */
+  background-image: url(back.png);
   background-repeat: no-repeat; /* Отменяем повторение фона */
+  background-size: cover;
 }
 
 .zag-box{
